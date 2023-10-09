@@ -5,23 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
+    android:background="#84ABCD"
     android:orientation="vertical"
     tools:context=".que_1.ReverseActivity">
 
     <EditText
+        android:layout_marginTop="200dp"
         android:id="@+id/editText"
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter a number"
+        android:textSize="20dp"
         android:inputType="number"/>
 
     <TextView
         android:id="@+id/reverseTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="10dp"
         android:text=""
-        android:textSize="24sp"/>
+        android:textStyle="bold"
+        android:hint="Reverse Number"
+        android:textSize="20sp"/>
 
 </LinearLayout>

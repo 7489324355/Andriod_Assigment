@@ -6,9 +6,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
+    android:background="@drawable/login_bk"
     tools:context=".que_3.AdditionActivity">
 
     <RadioGroup
+        android:layout_marginTop="230dp"
         android:id="@+id/operationRadioGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,6 +21,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Add"
+            android:textColor="#659EE4"
+            android:textStyle="bold"
             android:textSize="20dp"
             android:checked="true"/>
 
@@ -27,6 +31,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Subtract"
+            android:textColor="#659EE4"
+            android:textStyle="bold"
             android:textSize="20dp"/>
 
         <RadioButton
@@ -34,6 +40,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Multiply"
+            android:textColor="#659EE4"
+            android:textStyle="bold"
             android:textSize="20dp"/>
 
         <RadioButton
@@ -41,6 +49,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Divide"
+            android:textColor="#659EE4"
+            android:textStyle="bold"
             android:textSize="20dp"/>
     </RadioGroup>
 
@@ -49,6 +59,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter number 1"
+        android:textStyle="bold"
         android:textSize="20dp"
         android:inputType="numberDecimal"/>
 
@@ -57,13 +68,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter number 2"
+        android:textStyle="bold"
         android:textSize="20dp"
         android:inputType="numberDecimal"/>
 
     <Button
         android:id="@+id/calculateButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:backgroundTint="#659EE4"
         android:text="Calculate"/>
 
     <TextView
@@ -71,7 +85,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
+        android:hint="Total"
         android:textSize="20dp"
+        android:textStyle="bold"
         android:layout_marginTop="16dp"/>
 
 </LinearLayout>

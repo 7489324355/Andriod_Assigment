@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk"
+    android:padding="25dp"
+    tools:context=".que_8.HideActivity">
+
+    <Button
+        android:layout_marginTop="250dp"
+        android:id="@+id/hideButton"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hide TextView"
+        android:backgroundTint="#D81B60"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/showButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show TextView"
+        android:textSize="18dp"
+        android:backgroundTint="#D81B60"
+        android:layout_below="@+id/hideButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:background="@drawable/et_white_bg"
+        android:id="@+id/myTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello, I'm a Kashish!"
+        android:textSize="25dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/showButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:visibility="visible"/>
+
+</RelativeLayout>
