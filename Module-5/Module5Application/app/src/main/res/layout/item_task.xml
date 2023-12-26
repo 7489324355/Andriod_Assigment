@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="wrap_content"
+    android:longClickable="true">
+
+    <TextView
+        android:id="@+id/textViewTaskName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="kashish"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewTaskDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTaskName"
+        android:textSize="16sp"
+        android:text="dyegfreyrgfdhfegyrgf"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/textViewTaskDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTaskDescription"
+        android:textSize="14sp"
+        android:text="10-10-1000"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="4dp" />
+    <TextView
+        android:id="@+id/textViewTaskTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTaskDate"
+        android:textSize="14sp"
+        android:text="10-10-1000"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/textViewTaskPriority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTaskTime"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp" />
+
+    <!-- Update Button -->
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTaskPriority"
+        android:layout_marginTop="8dp"
+        android:text="Update" />
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTaskPriority"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/btnUpdate"
+        android:text="Delete" />
+</RelativeLayout>

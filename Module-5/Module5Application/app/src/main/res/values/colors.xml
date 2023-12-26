@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#F57C00</color>
+    <color name="colorHighPriority">#F41B0B</color>
+    <color name="colorAveragePriority">#1A3AE8</color>
+    <color name="colorTaskDue">#1A3AE8</color>
+    <color name="colorLowPriority">#27C603</color>
+</resources>
