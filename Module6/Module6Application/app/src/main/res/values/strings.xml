@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Module6Application</string>
+<!--    <string name="google_maps_api_key">AIzaSyBoEpsR8aAlVmsBZEhJFhwH7ALqGU7Eqn8</string>-->
+    <string name="title_activity_google_maps">GoogleMapsActivity</string>
+    <string name="title_activity_corrent_maps">CorrentMapsActivity</string>
+</resources>
